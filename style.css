@@ -96,9 +96,12 @@ header .column span {
     text-align: center;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 660px) {
     .wrapper {
-        width: 580px;
+        width: 560px;
      align-items: center;
+     padding: 0;
+        margin: 0;
+
     }
 }
