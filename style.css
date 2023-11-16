@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("img/window.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: #090202 double 10px;
+}
+
+.wrapper {
+    width: 780px;
+    border-radius: 20px;
+    padding: 35px 40px;
+    background-color: rgba(70, 62, 54, 0.5);
+    border: rgba(67, 46, 2, 0.8) double 8px;
+}
+
+.wrapper header {
+    color: rgba(135, 96, 11, 0.7);
+    text-shadow: #160505 2px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 1.8rem;
+}
+
+header .column {
+    display: flex;
+    align-items: center;
+}
+
+header .column span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+}
+
+.piano-keys {
+    display: flex;
+    margin-top: 40px;
+    border: #3c2d0a double 10px;
+    border-radius: 1%;
+    box-shadow: #2b1d09 2px 2px;
+}
+
+.piano-keys .key {
+    list-style: none;
+    cursor: pointer;
+    color: #a2a2a2;
+    text-transform: uppercase;
+}
+
+.piano-keys .black {
+    width: 44px;
+    height: 140px;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    border-radius: 2px 2px 5px 5px;
+    background: linear-gradient(rgba(101, 74, 17, 0.9), #1f1605);
+    border: rgba(44, 31, 4, 0.9) 3px solid;
+}
+
+.piano-keys .black.active {
+    box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to bottom, #000, #434343);
+}
+
+.piano-keys .white {
+    width: 70px;
+    height: 230px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(rgba(255, 255, 255, 0.5)6%, rgba(237, 237, 237, 0.8));
+}
+
+.piano-keys .white.active {
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, 0%, #eee 100%);
+}
+
+.piano-keys span {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 1.13rem;
+    text-align: center;
+}
