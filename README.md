@@ -1,4 +1,4 @@
-# This is a virtual piano I made that was inspired by a YouTube channel called CodingNepal. I changed a lot of the styling but I kept the mp3 tones, and the JavaScript as is.
+# This is a virtual piano I made that was inspired by a YouTube channel called CodingNepal. I changed a lot of the styling but I kept the wav tones file and uploaded it here, and the JavaScript as is.
 <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/400098779_1028356711831038_5532603964645687310_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HRlDKpQ_TUoAX8IRPF-&_nc_ht=scontent-mia3-2.xx&oh=00_AfAqMJZLD-_VLxtPCor-E2_RrlfT9aiY40XUTsWyBhUPTg&oe=655B1C41" alt="A photo of a virtual player piano" width="450px" height="180px" />
 This is a photo from Pixabay that I used as the background.
 <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/401859719_1028356668497709_1275510755203569246_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=AjynEv05YZYAX85NCAU&_nc_ht=scontent-mia3-2.xx&oh=00_AfAYSUrlkSbd2j2YkJJ9I23PRbmgq3ADqYv9TB1ZuWNK4A&oe=655AFA9D" alt="Pixabay stock photo of a window overlooking a mountain and lake." width="420px" height="200px" />
