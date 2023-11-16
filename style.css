@@ -98,8 +98,8 @@ header .column span {
 
 @media (max-width: 660px) {
     .wrapper {
-        width: 560px;
-     align-items: center;
+        max-width: 550px;
+     align-content: center;
      padding: 0;
         margin: 0;
 
